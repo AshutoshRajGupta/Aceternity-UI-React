@@ -18,11 +18,11 @@ export function AnimatedModalDemo() {
     "https://images.unsplash.com/photo-1546484475-7f7bd55792da?q=80&w=2581&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
   ];
   return (
-    <div className="py-40  flex items-center justify-center">
+    <div className="py-35  flex items-center justify-center mb-4">
       <Modal>
         <ModalTrigger className="bg-white dark:bg-white dark:text-black text-black flex justify-center group/modal-btn">
           <span className="group-hover/modal-btn:translate-x-40 text-center transition duration-500">
-            Book your flight
+            ABOUT ME
           </span>
           <div className="-translate-x-40 group-hover/modal-btn:translate-x-0 flex items-center justify-center absolute inset-0 transition duration-500 text-white z-20">
             ✈️
@@ -33,7 +33,7 @@ export function AnimatedModalDemo() {
             <h4 className="text-lg md:text-2xl text-neutral-600 dark:text-neutral-100 font-bold text-center mb-8">
               Book your trip to{" "}
               <span className="px-1 py-0.5 rounded-md bg-gray-100 dark:bg-neutral-800 dark:border-neutral-700 border border-gray-200">
-                Bali
+                ASHUTOSH
               </span>{" "}
               now! ✈️
             </h4>
@@ -70,48 +70,60 @@ export function AnimatedModalDemo() {
               <div className="flex  items-center justify-center">
                 <PlaneIcon className="mr-1 text-neutral-700 dark:text-neutral-300 h-4 w-4" />
                 <span className="text-neutral-700 dark:text-neutral-300 text-sm">
-                  5 connecting flights
+                  A Software Engineer
                 </span>
               </div>
               <div className="flex items-center justify-center">
                 <ElevatorIcon className="mr-1 text-neutral-700 dark:text-neutral-300 h-4 w-4" />
                 <span className="text-neutral-700 dark:text-neutral-300 text-sm">
-                  12 hotels
+                  MERN stack Developer
                 </span>
               </div>
               <div className="flex items-center justify-center">
                 <VacationIcon className="mr-1 text-neutral-700 dark:text-neutral-300 h-4 w-4" />
                 <span className="text-neutral-700 dark:text-neutral-300 text-sm">
-                  69 visiting spots
+                  1+ years of Experience
                 </span>
               </div>
               <div className="flex  items-center justify-center">
                 <FoodIcon className="mr-1 text-neutral-700 dark:text-neutral-300 h-4 w-4" />
                 <span className="text-neutral-700 dark:text-neutral-300 text-sm">
-                  Good food everyday
+                  7+ projects
                 </span>
               </div>
               <div className="flex items-center justify-center">
                 <MicIcon className="mr-1 text-neutral-700 dark:text-neutral-300 h-4 w-4" />
                 <span className="text-neutral-700 dark:text-neutral-300 text-sm">
-                  Open Mic
+                  2 Internships
                 </span>
               </div>
               <div className="flex items-center justify-center">
                 <ParachuteIcon className="mr-1 text-neutral-700 dark:text-neutral-300 h-4 w-4" />
                 <span className="text-neutral-700 dark:text-neutral-300 text-sm">
-                  Paragliding
+                  Hobbies - Music, Sports
                 </span>
               </div>
             </div>
           </ModalContent>
           <ModalFooter className="gap-4">
-            <button className="px-2 py-1 bg-gray-200 text-black dark:bg-black dark:border-black dark:text-white border border-gray-300 rounded-md text-sm w-28">
-              Cancel
-            </button>
-            <button className="bg-black text-white dark:bg-white dark:text-black text-sm px-2 py-1 rounded-md border border-black w-28">
-              Book Now
-            </button>
+            <a
+              href="https://www.linkedin.com/in/ashutosh-raj-gupta-18230820b/"
+              target="_blank"
+              className="no-underline"
+            >
+              <button className="w-40 h-10 rounded-xl bg-black border dark:border-white border-transparent text-white text-sm">
+                Linkeldn
+              </button>
+            </a>
+            <a
+              href="https://github.com/AshutoshRajGupta"
+              target="_blank"
+              className="no-underline"
+            >
+              <button className="w-40 h-10 rounded-xl bg-white text-black border border-black text-sm">
+                Github
+              </button>
+            </a>
           </ModalFooter>
         </ModalBody>
       </Modal>

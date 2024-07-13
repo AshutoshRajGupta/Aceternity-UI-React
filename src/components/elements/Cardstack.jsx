@@ -3,7 +3,7 @@ import { CardStack } from "../ui/card-stack";
 import { cn } from "../../utils/cn.js";
 export function CardStackDemo() {
   return (
-    <div className="h-[40rem] flex items-center justify-center w-full">
+    <div className="h-[20rem] flex items-center justify-center w-full">
       <CardStack items={CARDS} />
     </div>
   );

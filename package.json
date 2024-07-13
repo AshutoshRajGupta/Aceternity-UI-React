@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@heroicons/react": "^2.1.5",
     "@mediapipe/tasks-vision": "^0.10.14",
     "@react-three/drei": "^9.108.3",
     "@react-three/fiber": "^8.16.8",

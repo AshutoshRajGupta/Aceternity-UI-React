@@ -32,27 +32,33 @@ function App() {
         <TypewriterEffectSmoothDemo />
         <AnimatedModalDemo />
         <CardHoverEffectDemo />
+        <InfiniteMovingCardsDemo />
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-10 p-20">
           <AnimatedTooltipPreview />
           <CardStackDemo />
         </div>
-        <InfiniteMovingCardsDemo />
-        <div className="grid grid-cols-1 sm:grid-cols-3 gap-10 p-20">
+        {/* <div className="grid grid-cols-1 sm:grid-cols-3 gap-10 p-20">
           <ThreeDCardDemo />
           <ThreeDCardDemo />
           <ThreeDCardDemo />
           <ThreeDCardDemo />
           <ThreeDCardDemo />
           <ThreeDCardDemo />
+        </div> */}
+        <div className="p-20">
+          <p className="text-center font-bold text-lg text-white mb-8">
+            My Projects
+          </p>
+          <div className="grid grid-cols-1 sm:grid-cols-3 gap-10">
+            <ThreeDCardDemo />
+            <ThreeDCardDemo />
+            <ThreeDCardDemo />
+            <ThreeDCardDemo />
+            <ThreeDCardDemo />
+            <ThreeDCardDemo />
+          </div>
         </div>
       </div>
-      <div className="fixed bottom-0 left-0 right-0 z-100">
-        {" "}
-        <FloatingNavDemo />
-      </div>
-      {/* <HeroScrollDemo /> */}
-      {/* <FlipWordsDemo /> */}
-      <StickyScrollRevealDemo />
     </div>
   );
 }
