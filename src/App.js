@@ -15,6 +15,11 @@ import { HeroScrollDemo } from "./components/elements/Containerscrollanimation";
 import { InfiniteMovingCardsDemo } from "./components/elements/Infinitemovingcard";
 import { TypewriterEffectSmoothDemo } from "./components/elements/Typewriter";
 import { StickyScrollRevealDemo } from "./components/elements/Stickyscroll";
+import { AnimatedPinDemo } from "./components/elements/ThreeDpin";
+import { TracingBeamDemo } from "./components/elements/TracingBeam";
+import { SignupFormDemo } from "./components/elements/SignForm";
+import { TextGenerateEffectDemo } from "./components/elements/Textgenerate";
+import { BorderButton } from "./components/elements/GlowButton";
 function App() {
   return (
     <div className="bg-black relative min-h-screen">
@@ -25,10 +30,6 @@ function App() {
       </div>
       <div className="z-00 relative">
         {" "}
-        {/* <div className="grid grid-cols-1 sm:grid-cols-2 ml-20 p-20">
-          <FlipWordsDemo />
-          <AnimatedModalDemo />
-        </div> */}
         <TypewriterEffectSmoothDemo />
         <AnimatedModalDemo />
         <CardHoverEffectDemo />
@@ -37,14 +38,6 @@ function App() {
           <AnimatedTooltipPreview />
           <CardStackDemo />
         </div>
-        {/* <div className="grid grid-cols-1 sm:grid-cols-3 gap-10 p-20">
-          <ThreeDCardDemo />
-          <ThreeDCardDemo />
-          <ThreeDCardDemo />
-          <ThreeDCardDemo />
-          <ThreeDCardDemo />
-          <ThreeDCardDemo />
-        </div> */}
         <div className="p-20">
           <p className="text-center font-bold text-lg text-white mb-8">
             My Projects
@@ -53,12 +46,21 @@ function App() {
             <ThreeDCardDemo />
             <ThreeDCardDemo />
             <ThreeDCardDemo />
-            <ThreeDCardDemo />
-            <ThreeDCardDemo />
-            <ThreeDCardDemo />
           </div>
         </div>
       </div>
+      {/* <TracingBeamDemo /> */}
+      <AnimatedPinDemo />
+      <TextGenerateEffectDemo />
+      <BorderButton />
+      <FlipWordsDemo />
+      <BentoGridDemo />
+      <SparklesPreview />
+      <EvervaultCardDemo />
+      <GlobeDemo />
+      <HeroScrollDemo />
+      <StickyScrollRevealDemo />
+      <SignupFormDemo />
     </div>
   );
 }
