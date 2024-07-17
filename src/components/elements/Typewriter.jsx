@@ -8,15 +8,13 @@ export function TypewriterEffectSmoothDemo() {
     {
       text: "Passionate",
     },
-    {
-      text: "&",
-    },
+
     {
       text: "Dedicated",
     },
     {
       text: "Software-Engineer.",
-      className: "text-blue-500 dark:text-blue-500",
+      className: "text-blue-500 dark:text-blue-500 text-sm",
     },
   ];
   return (
@@ -24,7 +22,7 @@ export function TypewriterEffectSmoothDemo() {
       <p className="text-black-600 dark:text-neutral-200 text-xs sm:text-2xl font-extrabold mb-8 ">
         Hi I'm Ashutosh Raj Gupta
       </p>
-      <p className="text-white dark:text-neutral-200 text-xs sm:text-2xl font-bold mb-6">
+      <p className="text-white dark:text-neutral-200 text-xs sm:text-xl font-bold mb-6">
         "Transforming visions into reality through software engineering."
       </p>
       <TypewriterEffectSmooth words={words} />

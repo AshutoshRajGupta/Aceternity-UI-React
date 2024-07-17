@@ -4,9 +4,9 @@ import { SparklesCore } from "../ui/sparkles";
 
 export function SparklesPreview() {
   return (
-    <div className="h-[12rem] w-[25rem] bg-black flex flex-col items-center justify-center overflow-hidden rounded-full">
+    <div className="h-[10rem] w-[45rem] bg-black flex flex-col items-center justify-center overflow-hidden ">
       <h1 className="text-3xl lg:text-5xl font-bold text-center text-white relative z-20">
-        Aryan Sharma
+        Aceternity With React
       </h1>
       <div className="w-[20rem] h-20 relative">
         {/* Gradients */}
