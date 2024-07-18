@@ -77,7 +77,6 @@ import Components from "./components/Components";
 import GitHubRepo from "./components/code";
 
 import "./App.css";
-import ComponentPage from "./components/ComponentPage";
 
 function App() {
   return (
@@ -87,7 +86,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/components" element={<Components />} />
-        <Route path="/code" element={<ComponentPage />} />
+        <Route path="/code" element={<GitHubRepo />} />
       </Routes>
     </div>
   );

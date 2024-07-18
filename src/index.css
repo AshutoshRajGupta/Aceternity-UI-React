@@ -34,3 +34,57 @@ code {
 .hover\:pause-on-hover:hover {
   animation-play-state: paused !important;
 }
+
+/* Container styles */
+.code-container {
+  background: #1e1e1e; /* VS Code dark theme background */
+  padding: 1rem;
+  border-radius: 8px;
+  position: relative;
+}
+
+/* Code block styles */
+.code-block {
+  color: #d4d4d4; /* Default text color */
+  font-family: "Fira Code", "Courier New", monospace; /* Monospaced font */
+  white-space: pre-wrap; /* Wrap long lines */
+  overflow-x: auto; /* Horizontal scroll */
+}
+
+/* Syntax highlighting */
+.code-keyword {
+  color: #569cd6; /* Blue keywords */
+}
+
+.code-string {
+  color: #ce9178; /* Orange strings */
+}
+
+.code-comment {
+  color: #6a9955; /* Green comments */
+}
+
+.code-function {
+  color: #dcdcaa; /* Yellow functions */
+}
+
+.code-variable {
+  color: #9cdcfe; /* Light blue variables */
+}
+
+/* Copy button styles */
+.copy-button {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  background: #007acc; /* VS Code blue button */
+  color: #fff;
+  font-weight: bold;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.copy-button:hover {
+  background: #005fa3; /* Darker blue on hover */
+}

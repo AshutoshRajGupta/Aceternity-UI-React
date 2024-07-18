@@ -18,7 +18,7 @@ export function HeroScrollDemo() {
         }
       >
         <img
-          src="https://img.freepik.com/premium-psd/3d-render-web-development-software-development-web-design-coding-programming_566602-185.jpg"
+          src="https://media.licdn.com/dms/image/D4E10AQG2m_NUX2ilFQ/image-shrink_800/0/1709046462737?e=2147483647&v=beta&t=BdHsz03qMWkct4orfCTPa5UvcU1mGrga7iK8f1mMb-U"
           alt="hero"
           height={720}
           width={1400}

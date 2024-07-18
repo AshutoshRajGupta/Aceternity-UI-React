@@ -35,8 +35,11 @@ const Component = () => {
             </button>
           </a>
         </div>
-        <div className="component-container bg-blue-800 rounded-lg border-2 border-blue-700 p-2 mt-4 ">
-          <SparklesPreview />
+
+        <div className="component-container bg-blue-800 rounded-lg border-2 border-blue-700 p-2 mt-4 flex flex-col items-center">
+          <div className="flex justify-center items-center h-48 mt-48">
+            <SparklesPreview />
+          </div>
           <p className="text-white text-center mt-2">
             This is the Sparkles component
           </p>
@@ -46,6 +49,7 @@ const Component = () => {
             </button>
           </a>
         </div>
+
         {/* <div className="component-container bg-green-800 rounded-lg border-2 border-green-700 p-4">
           <FloatingNavDemo />
           <p className="text-white text-center mt-2">
@@ -81,7 +85,9 @@ const Component = () => {
           </a>
         </div>
         <div className="component-container bg-blue-800 rounded-lg border-2 border-blue-700 p-4">
-          <AnimatedModalDemo />
+          <div className="flex justify-center items-center h-48 mt-48">
+            <AnimatedModalDemo />
+          </div>
           <p className="text-white text-center mt-2">
             This is the Animated Modal component
           </p>
@@ -125,7 +131,10 @@ const Component = () => {
           </a>
         </div>
         <div className="component-container bg-blue-800 rounded-lg border-2 border-blue-700 p-4">
-          <AnimatedTooltipPreview />
+          <div className="flex justify-center items-center h-48 mt-38">
+            <AnimatedTooltipPreview />
+          </div>
+
           <p className="text-white text-center mt-2">
             This is the Animated Tooltip component
           </p>
@@ -150,7 +159,10 @@ const Component = () => {
           </a>
         </div>
         <div className="component-container bg-purple-800 rounded-lg border-2 border-purple-700 p-4">
-          <BorderButton />
+          <div className="flex justify-center items-center h-48 mt-48">
+            <BorderButton />
+          </div>
+
           <p className="text-white text-center mt-2">
             This is the Border Button component
           </p>
