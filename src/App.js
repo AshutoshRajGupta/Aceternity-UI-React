@@ -77,6 +77,7 @@ import Components from "./components/Components";
 import GitHubRepo from "./components/code";
 
 import "./App.css";
+import Aboutus from "./components/Aboutus";
 
 function App() {
   return (
@@ -86,6 +87,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/components" element={<Components />} />
+        <Route path="/aboutus" element={<Aboutus />} />
         <Route path="/code" element={<GitHubRepo />} />
       </Routes>
     </div>

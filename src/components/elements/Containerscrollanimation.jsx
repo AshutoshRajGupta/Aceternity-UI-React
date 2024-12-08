@@ -4,13 +4,13 @@ import { ContainerScroll } from "../ui/container-scroll-animation";
 
 export function HeroScrollDemo() {
   return (
-    <div className="flex flex-col overflow-hidden">
+    <div className="flex flex-col overflow-hidden ">
       <ContainerScroll
         titleComponent={
           <>
-            <h1 className="text-4xl font-semibold text-black dark:text-white">
+            <h1 className="text-4xl font-semibold text-black dark:text-white mt-0 mb-16">
               Unleash the power of <br />
-              <span className="text-4xl md:text-[6rem] font-bold mt-1 leading-none">
+              <span className="text-4xl md:text-[3rem] font-bold mt-4 leading-none">
                 Scroll Animations
               </span>
             </h1>
@@ -18,7 +18,7 @@ export function HeroScrollDemo() {
         }
       >
         <img
-          src="https://media.licdn.com/dms/image/D4E10AQG2m_NUX2ilFQ/image-shrink_800/0/1709046462737?e=2147483647&v=beta&t=BdHsz03qMWkct4orfCTPa5UvcU1mGrga7iK8f1mMb-U"
+          src="https://ui.aceternity.com/_next/image?url=https%3A%2F%2Fassets.aceternity.com%2Fmacbook-scroll.png&w=1920&q=75"
           alt="hero"
           height={720}
           width={1400}

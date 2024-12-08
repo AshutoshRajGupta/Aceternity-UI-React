@@ -88,3 +88,15 @@ code {
 .copy-button:hover {
   background: #005fa3; /* Darker blue on hover */
 }
+
+/* Add this custom utility if not using tailwind directives */
+.logo-gradient {
+  background: linear-gradient(90deg, #ff4500, #ff8c00, #1e90ff, #32cd32);
+  background-size: 400%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.text-shadow-lg {
+  text-shadow: 0 4px 6px rgba(0, 0, 0, 0.3), 0 1px 3px rgba(0, 0, 0, 0.1);
+}
