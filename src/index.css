@@ -89,6 +89,117 @@ code {
   background: #005fa3; /* Darker blue on hover */
 }
 
+/* About Us Page Styles */
+.about-us-container {
+  font-family: "Arial", sans-serif;
+  padding: 2rem;
+  background-color: #f9f9f9;
+}
+
+.hero-section {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.hero-title {
+  font-size: 3rem;
+  font-weight: bold;
+  color: #2c3e50;
+  animation: fadeIn 2s;
+}
+
+.hero-subtitle {
+  font-size: 1.5rem;
+  color: #34495e;
+}
+
+.section {
+  margin-bottom: 3rem;
+  padding: 2rem;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.section-title {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #2c3e50;
+  margin-bottom: 1rem;
+}
+
+.section-content {
+  font-size: 1.2rem;
+  color: #7f8c8d;
+}
+
+.team-members {
+  display: flex;
+  justify-content: space-around;
+  gap: 2rem;
+}
+
+.team-member {
+  text-align: center;
+  max-width: 200px;
+}
+
+.team-member img {
+  width: 100%;
+  border-radius: 50%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.team-member h3 {
+  font-size: 1.5rem;
+  color: #2c3e50;
+  margin-top: 1rem;
+}
+
+.team-member p {
+  color: #7f8c8d;
+  margin-top: 0.5rem;
+}
+
+.values-list {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.values-list li {
+  font-size: 1.2rem;
+  color: #34495e;
+  padding: 0.5rem 0;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(calc(-100%));
+  }
+}
+
+.scroller .animate-scroll {
+  animation: scroll var(--animation-duration) linear infinite
+    var(--animation-direction);
+}
+
+.hover\:pause-on-hover:hover {
+  animation-play-state: paused !important;
+}
+
 /* Add this custom utility if not using tailwind directives */
 .logo-gradient {
   background: linear-gradient(90deg, #ff4500, #ff8c00, #1e90ff, #32cd32);
