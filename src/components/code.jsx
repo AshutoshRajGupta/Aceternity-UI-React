@@ -6,12 +6,12 @@ const componentCode = {
   GlobeDemo: {
     files: [
       {
-        name: "GlobeDemo.js",
-        content: `https://github.com/username/repository/blob/main/GlobeDemo.js`,
+        name: "elements/Globe.jsx",
+        content: `https://github.com/AshutoshRajGupta/Aceternity-UI-React/blob/main/src/components/elements/Globe.jsx`,
       },
       {
-        name: "GlobeStyles.css",
-        content: `https://github.com/username/repository/blob/main/GlobeStyles.css`,
+        name: "ui/globe.jsx",
+        content: `https://github.com/AshutoshRajGupta/Aceternity-UI-React/blob/main/src/components/ui/globe.jsx`,
       },
     ],
   },
