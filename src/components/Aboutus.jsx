@@ -5,7 +5,7 @@ const AboutUs = () => {
     <div className="flex justify-center items-center min-h-screen bg-gray-900">
       <div className="bg-gray-800 shadow-md rounded-md p-6 w-full max-w-6xl text-gray-300">
         <h2 className="text-4xl text-red-600 font-bold text-gradient mb-6 mt-6 text-center animate__animated animate__fadeIn animate__delay-1s">
-          About Reacernity
+          About Reacernity!!
         </h2>
         <p className="text-lg mb-6 animate__animated animate__fadeIn animate__delay-2s">
           <b>
